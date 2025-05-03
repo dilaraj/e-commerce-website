@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Inter;
+    src: url(../../assets/fonts/Inter_28pt-SemiBold.ttf);
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.5em;
+
+    width: 9em;
+    height: 2.5em;
+
+    font-family: Inter;
+    border-radius: 8px;
+    border: 1px solid #201B21;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a4c4bc;
+    border-color: #a4c4bc;
+    color: #FFFFFF;
+}

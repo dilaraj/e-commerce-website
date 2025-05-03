@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    /* border: 1px solid black; */
+}
+
+.container {
+    background-color: #FFFFFF;
+    min-height: 100vh;
+    max-width: 100vw;
+}
