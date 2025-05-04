@@ -1,0 +1,19 @@
+@font-face {
+    font-family: DM Sans;
+    src: url(../../assets/fonts/DMSans_24pt-Bold.ttf);
+}
+
+.productListHeader {
+    font-family: DM Sans;
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: #000000;
+}
+
+.productList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 5em;
+}

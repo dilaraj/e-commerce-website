@@ -20,7 +20,7 @@
 
 .heroText {
     font-family: DM Sans;
-    
+    font-weight: 600;
     display: flex;
     flex-direction: column;
 }
@@ -45,6 +45,7 @@
 }
 
 .heroImg img {
-    width: auto;
+    width: 100%;
     height: auto;
+    max-width: 50em;
 }
