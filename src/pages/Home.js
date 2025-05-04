@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../components/HeaderComponent/Header";
 import HeroBanner from "../components/HeroBannerComponent/HeroBanner";
 import ProductList from "../components/ProductListComponent/ProductList";
+import Footer from "../components/FooterComponent/Footer";
 import '../global.css';
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
             <div className="productListComponent">
                 <ProductList />
             </div>
+            <Footer />
         </div>
     );
 }

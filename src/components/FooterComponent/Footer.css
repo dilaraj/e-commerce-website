@@ -1,0 +1,46 @@
+@font-face {
+    font-family: Inter;
+    src: url(../../assets/fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background-color: #000000;
+    color: #FFFFFF;
+
+    padding: 0.75em 8em;
+
+    font-family: Inter;
+    font-size: 0.8rem;
+}
+
+.footerContainer div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 1em;
+
+}
+
+.logo {
+    font-weight: 600;
+}
+
+.header img {
+    height: 1.5em;
+    width: auto;
+}
+
+.copyright {
+    color: #a8a8a8;
+    font-size: 0.8rem;
+}
+
+.socialBtns {
+    display: flex;
+    flex-direction: row;
+
+}
