@@ -4,7 +4,7 @@ import { MdOutlineShoppingBag } from "react-icons/md";
 
 const ViewCart = ({ label }) => {
     return (
-        <button>
+        <button className="viewCart">
             <MdOutlineShoppingBag />
             {label}
         </button>

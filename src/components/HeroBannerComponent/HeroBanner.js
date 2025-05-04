@@ -1,7 +1,7 @@
 import React from "react";
 import './HeroBanner.css';
 import heroGraphic from '../../assets/images/heroGraphic.png';
-import GeneralButton from "../xGeneralButtonComponent/GeneralButton";
+import GeneralButton from '../GeneralButtonComponent/GeneralButton';
 
 const HeroBanner = () => {
     return (
@@ -12,10 +12,10 @@ const HeroBanner = () => {
                     <span>Summer Sale</span>
                 </div>
                 <span className="subText">Discover our summer styles with discount</span>
-                <GeneralButton text="Shop Now" />
+                <GeneralButton btnText="Shop Now" />
             </div>
             <div className="heroImg">
-                img
+                <img src={heroGraphic} alt="Shoes Hero Graphic"/>
             </div>
         </div>
     );

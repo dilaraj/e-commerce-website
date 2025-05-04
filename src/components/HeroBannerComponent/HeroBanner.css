@@ -43,3 +43,8 @@
     color: #67696E;
     padding: 1em 0em 3em;
 }
+
+.heroImg img {
+    width: auto;
+    height: auto;
+}
