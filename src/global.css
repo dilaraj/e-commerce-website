@@ -8,3 +8,7 @@
     min-height: 100vh;
     max-width: 100vw;
 }
+
+.heroComponent {
+    padding: 2em 8em 4em;
+}

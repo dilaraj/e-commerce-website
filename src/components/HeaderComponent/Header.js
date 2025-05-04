@@ -2,7 +2,7 @@ import React from "react";
 import './Header.css';
 import logo from '../../assets/images/logo.png';
 
-import ViewCart from "../ViewCart/ViewCart";
+import ViewCart from "../ViewCartComponent/ViewCart";
 
 const Home = () => {
     return (

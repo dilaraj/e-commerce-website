@@ -1,0 +1,45 @@
+@font-face {
+    font-family: DM Sans;
+    src: url(../../assets/fonts/DMSans_24pt-Bold.ttf);
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(../../assets/fonts/Inter_28pt-Regular.ttf);
+}
+
+.heroBanner {
+    background-color: #EAEEEF;
+    border-radius: 40px;
+
+    padding: 3em;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.heroText {
+    font-family: DM Sans;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.promo {
+    color: #EC5E2A;
+    font-size: 3rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.promo span {
+    color: #000000;
+    font-size: 4rem;
+}
+
+.subText {
+    font-family: Inter;
+    color: #67696E;
+    padding: 1em 0em 3em;
+}
