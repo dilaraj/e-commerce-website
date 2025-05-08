@@ -36,5 +36,7 @@
 @media only screen and (max-width: 600px) {
     .generalBtn {
         font-size: 0.75em;
+        width: 100%;
+        font-weight: bold;
     }
 }

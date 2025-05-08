@@ -1,6 +1,6 @@
 @font-face {
     font-family: DM Sans;
-    src: url(../../assets/fonts/DMSans_24pt-Bold.ttf);
+    src: url(../../assets/fonts/DMSans-VariableFont_opsz\,wght.ttf);
 }
 
 @font-face {
@@ -8,20 +8,17 @@
     src: url(../../assets/fonts/Inter_28pt-Regular.ttf);
 }
 
-* {
-    border: 1px solid;
-}
-
 .heroBanner {
-    background-color: #EAEEEF;
-    border-radius: 40px;
-
-    padding: 3em;
-
     display: grid;
     grid-template-columns: 1fr 1fr;
-    align-items: center;
-    justify-content: center;
+    align-items: center;         
+    justify-items: center;       
+    background-color: #EAEEEF;
+    border-radius: 40px;
+    padding: 3em;
+
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .heroText {
@@ -29,6 +26,8 @@
     font-weight: 600;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     font-size: 1rem;
 }
 
@@ -38,16 +37,21 @@
 
     display: flex;
     flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    text-align: right;
 }
 
 .promo span {
     color: #000000;
     font-size: 4rem;
+    text-align: left;
 }
 
 .subText {
     font-family: Inter;
     color: #67696E;
+    text-align: left;
     padding: 1em 0em 3em;
 }
 
@@ -66,29 +70,49 @@
 
 @media only screen and (max-width: 600px) {
     .heroComponent {
-        padding: 2em 0em 4em;
+        padding: 1em 0.75em 4em;
         border-radius: none;
     }
 
     .heroBanner {
-        padding: 2em;
-        display: flex;
-        flex-direction: column;
+        padding: 1.75em 1em 2em;
+        border-radius: 20px;      
+        
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: auto;
+        gap: 0.75em;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .heroText {
+        grid-row: 2 / 3;
+        align-items: center;
     }
 
     .promo, .promo span {
-        font-size: 2rem;
+        font-size: 1.75rem;
+        align-items: center;
+    }
+
+    .promo span {
+        font-size: 2.35rem;
     }
 
     .subText {
-        font-size: 0.75rem;
+        font-size: 0.65rem;
+        font-weight: 400;
+
+        padding: 1.75em 0 2.5em;
     }
 
     .heroImg {
+        grid-row: 1 / 2;
         padding-top: 0.75em;
     }
 
     .heroImg img {
-        width: 6em;
+        width: 7em;
     }
 }
