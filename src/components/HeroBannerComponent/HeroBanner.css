@@ -8,6 +8,10 @@
     src: url(../../assets/fonts/Inter_28pt-Regular.ttf);
 }
 
+* {
+    border: 1px solid;
+}
+
 .heroBanner {
     background-color: #EAEEEF;
     border-radius: 40px;
@@ -16,6 +20,8 @@
 
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
 }
 
 .heroText {
@@ -23,6 +29,7 @@
     font-weight: 600;
     display: flex;
     flex-direction: column;
+    font-size: 1rem;
 }
 
 .promo {
@@ -44,8 +51,44 @@
     padding: 1em 0em 3em;
 }
 
+.heroImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .heroImg img {
     width: 100%;
     height: auto;
-    max-width: 50em;
+    max-width: 40em;
+    min-width: 10em;
+}
+
+@media only screen and (max-width: 600px) {
+    .heroComponent {
+        padding: 2em 0em 4em;
+        border-radius: none;
+    }
+
+    .heroBanner {
+        padding: 2em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .promo, .promo span {
+        font-size: 2rem;
+    }
+
+    .subText {
+        font-size: 0.75rem;
+    }
+
+    .heroImg {
+        padding-top: 0.75em;
+    }
+
+    .heroImg img {
+        width: 6em;
+    }
 }

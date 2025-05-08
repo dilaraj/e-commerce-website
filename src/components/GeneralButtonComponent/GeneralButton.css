@@ -32,3 +32,9 @@
 .generalBtn:hover span{
     padding-left: 15px;
 }
+
+@media only screen and (max-width: 600px) {
+    .generalBtn {
+        font-size: 0.75em;
+    }
+}
