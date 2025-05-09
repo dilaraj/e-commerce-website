@@ -15,10 +15,7 @@
     justify-items: center;       
     background-color: #EAEEEF;
     border-radius: 40px;
-    padding: 3em;
-
-    max-width: 1200px;
-    margin: 0 auto;
+    padding: 2em;
 }
 
 .heroText {
@@ -26,8 +23,6 @@
     font-weight: 600;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     font-size: 1rem;
 }
 
@@ -70,7 +65,7 @@
 
 @media only screen and (max-width: 600px) {
     .heroComponent {
-        padding: 1em 0.75em 4em;
+        padding: 1em 0.75em 1em;
         border-radius: none;
     }
 

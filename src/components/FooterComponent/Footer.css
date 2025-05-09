@@ -29,7 +29,7 @@
     font-weight: 600;
 }
 
-.header img {
+.logo img {
     height: 1.5em;
     width: auto;
 }
@@ -43,4 +43,30 @@
     display: flex;
     flex-direction: row;
 
+}
+
+@media only screen and (max-width: 600px) {
+    .footerContainer {
+        padding: 1em 1em;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(auto, 2);
+
+        font-size: 0.6rem;
+    }
+
+    .logo {
+        grid-column: 1 / 2;
+    }
+
+    .copyright {
+        grid-row: 2 / 3;
+        font-size: 0.6rem;
+    }
+
+    .socialBtns {
+        grid-column: 2 / 3;
+        justify-content: end;
+    }
 }

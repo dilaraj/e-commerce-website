@@ -31,7 +31,35 @@ const ProductListData = [
         brand: 'adidas',
         name: 'DAILY 3.0 SHOES',
         price: '$98.99'
-    }
+    },
+    {
+        id: 5,
+        src: product1,
+        brand: 'Off-White',
+        name: 'Out Of Office "Ooo" sneakers',
+        price: '$775'
+    },
+    {
+        id: 6,
+        src: product2,
+        brand: 'Nike',
+        name: 'Nike Air Force Premium',
+        price: '$200'
+    },
+    {
+        id: 7,
+        src: product1,
+        brand: 'Off-White',
+        name: 'Out Of Office "Ooo" sneakers',
+        price: '$775'
+    },
+    {
+        id: 8,
+        src: product2,
+        brand: 'Nike',
+        name: 'Nike Air Force Premium',
+        price: '$200'
+    },
 ]
 
 export default ProductListData;
