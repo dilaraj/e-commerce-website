@@ -11,9 +11,21 @@ const ProductPage = () => {
     return (
         <div className="productPageContainer">
             <Header />
-            <div className="productName">
-                <img src={product.src} alt={product.name} className="productImg" />
+            <div className="productDescriptionPage">
+                <div className="productImg">
+                    product
+                </div>
+                <div className="checkoutDiv">
+                    checkout
+                </div>
+                <div className="descriptionDiv">
+                    description
+                </div>
+                <div className="similarProductDiv">
+                    Similar product
+                </div>
             </div>
+            
         </div>
     );
 }
