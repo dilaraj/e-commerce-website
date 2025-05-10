@@ -3,6 +3,10 @@
     src: url(../../assets/fonts/Inter_28pt-SemiBold.ttf);
 }
 
+* {
+    border: 1px solid;
+}
+
 .header {
     display: flex;
     flex-direction: row;
@@ -14,6 +18,7 @@
     font-family: Inter;
     font-size: 1rem;
     font-weight: 600;
+    color: #000000;
 
     border-bottom: 1px solid #ebe8e8;
 
@@ -30,7 +35,16 @@
 
     align-items: center;
 
-    width: 10em;
+    width: 20em;
+}
+
+.headerLink {
+    display: flex;
+    flex-direction: row;
+}
+
+.brandName {
+    color: #000000;
 }
 
 .header img {
