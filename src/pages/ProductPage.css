@@ -1,6 +1,4 @@
-* {
-    /* border: 1px solid; */
-}
+
 
 .productDescriptionPage {
     background-color: #FDFDFD;
@@ -10,4 +8,9 @@
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
+    gap: 3em;
+}
+
+.checkoutDiv {
+    padding-top: 1em;
 }

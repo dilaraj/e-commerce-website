@@ -3,10 +3,6 @@
     src: url(../../assets/fonts/Inter_28pt-SemiBold.ttf);
 }
 
-* {
-    border: 1px solid;
-}
-
 .header {
     display: flex;
     flex-direction: row;
@@ -41,6 +37,7 @@
 .headerLink {
     display: flex;
     flex-direction: row;
+    gap: 0.5em;
 }
 
 .brandName {

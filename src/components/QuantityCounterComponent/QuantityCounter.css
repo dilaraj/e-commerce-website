@@ -1,0 +1,42 @@
+@font-face {
+    font-family: DM Sans;
+    src: url(../../assets/fonts/DMSans-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(../../assets/fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+.quantityCounterContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.counterText {
+    font-family: DM Sans;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.counterContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 1.75em;
+    background-color: #FFFFFF;
+    border: 1px solid #E9EBEE;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 0.75em;
+}
+
+.counterOutcome {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 1.125rem;
+}
+
+.minusCounter, .addCounter {
+    cursor: pointer;
+}

@@ -1,13 +1,12 @@
 import React from "react";
 import './GeneralButton.css';
-import { FaArrowRight } from "react-icons/fa";
 
-const GeneralButton = ({ btnText }) => {
+const GeneralButton = ({ btnText, icon, className }) => {
     return (
-        <button className="generalBtn">
+        <button className="generalBtn addToCartBtn">
             {btnText}
             <span>
-                <FaArrowRight />
+                {icon}
             </span>
         </button>
     );

@@ -1,0 +1,68 @@
+@font-face {
+    font-family: DM Sans;
+    src: url(../../../assets/fonts/DMSans-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(../../../assets/fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+* {
+    /* border: 1px solid; */
+}
+
+.addToCartContainer {
+    background-color: #FFFFFF;
+    height: fit-content;
+    width: 35em;
+    box-shadow: 1px 1px 10px rgba(201, 201, 201, 0.4);
+    border-radius: 20px;
+}
+
+.productInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75em;
+    padding: 3em 3em 2em;
+}
+
+.productInfo div:nth-child(1) {
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #000000;
+}
+
+.productInfo div:nth-child(2) {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: #67696E;
+    text-transform: uppercase;
+}
+
+.productInfo div:nth-child(3) {
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #000000;
+}
+
+.line {
+    border-bottom: 0.1em solid #E9EBEE;
+    width: 100%;
+}
+
+.orderInfo {
+    padding: 2em 3em 3em 3em;
+
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.addToCartBtn {
+    font-weight: 600;
+    width: 100%;
+}

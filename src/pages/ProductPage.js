@@ -5,6 +5,7 @@ import { useParams } from "react-router-dom";
 import Header from "../components/HeaderComponent/Header";
 import Footer from "../components/FooterComponent/Footer";
 import ProductImageCarousel from "../components/ProductPageComponents/ProductImageCarouselComponent/ProductImageCarousel";
+import AddToCart from "../components/ProductPageComponents/AddToCartComponent/AddToCart";
 
 const ProductPage = () => {
     const { id } = useParams();
@@ -18,7 +19,7 @@ const ProductPage = () => {
                     <ProductImageCarousel images={product.images}/>
                 </div>
                 <div className="checkoutDiv">
-                    checkout
+                    <AddToCart />
                 </div>
                 <div className="descriptionDiv">
                     description
