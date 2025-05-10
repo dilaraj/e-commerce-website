@@ -6,6 +6,8 @@ import Header from "../components/HeaderComponent/Header";
 import Footer from "../components/FooterComponent/Footer";
 import ProductImageCarousel from "../components/ProductPageComponents/ProductImageCarouselComponent/ProductImageCarousel";
 import AddToCart from "../components/ProductPageComponents/AddToCartComponent/AddToCart";
+import ProductDescription from "../components/ProductPageComponents/ProductDescriptionComponent/ProductDescription";
+import SimilarProduct from "../components/ProductPageComponents/SimilarProductComponent/SimilarProduct";
 
 const ProductPage = () => {
     const { id } = useParams();
@@ -22,10 +24,10 @@ const ProductPage = () => {
                     <AddToCart />
                 </div>
                 <div className="descriptionDiv">
-                    description
+                    <ProductDescription />
                 </div>
                 <div className="similarProductDiv">
-                    Similar product
+                    <SimilarProduct />
                 </div>
             </div>
             <Footer />

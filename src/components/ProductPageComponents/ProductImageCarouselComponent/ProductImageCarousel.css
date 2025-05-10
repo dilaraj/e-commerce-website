@@ -19,7 +19,7 @@
 }
 
 .carouselBtns {
-    width: 80%;
+    width: 35em;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

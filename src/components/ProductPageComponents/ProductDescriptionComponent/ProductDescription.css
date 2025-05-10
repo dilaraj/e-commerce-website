@@ -1,0 +1,48 @@
+@font-face {
+    font-family: DM Sans;
+    src: url(../../../assets/fonts/DMSans-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(../../../assets/fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+.productDescriptionSection{
+    padding: 1em 0;
+}
+
+.productDescriptionSection div {
+    font-family: DM Sans;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #000;
+}
+
+.productDescriptionSection .line {
+    border-bottom: 0.1em solid #201b210f;
+    width: 100%;
+    padding: 0.25em 0;
+}
+
+.productDescriptionSection div:nth-child(3) {
+    padding-top: 1em;
+    font-family: Inter;
+    font-weight: 400;
+    color: #67696E ;
+    font-size: 1.125rem;
+}
+
+.productDescriptionList ul {
+    padding-left: 1.5em;
+    list-style-type: disc;
+    padding-top: 0.5em;
+}
+
+.productDescriptionList li {
+    font-family: Inter;
+    font-weight: 400;
+    color: #67696E;
+    font-size: 1.125rem;
+    white-space: pre-line;
+}

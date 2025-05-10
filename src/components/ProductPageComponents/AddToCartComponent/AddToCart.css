@@ -8,14 +8,10 @@
     src: url(../../../assets/fonts/Inter-VariableFont_opsz\,wght.ttf);
 }
 
-* {
-    /* border: 1px solid; */
-}
-
 .addToCartContainer {
     background-color: #FFFFFF;
     height: fit-content;
-    width: 35em;
+    width: 80%;
     box-shadow: 1px 1px 10px rgba(201, 201, 201, 0.4);
     border-radius: 20px;
 }

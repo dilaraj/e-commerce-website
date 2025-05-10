@@ -2,7 +2,7 @@ import React from "react";
 import './AddToCart.css';
 import ProductListData from "../../ProductListComponent/ProductListData";
 import { useParams } from "react-router-dom";
-import QuantityCounter from "../../QuantityCounterComponent/QuantityCounter";
+import QuantityCounter from "../QuantityCounterComponent/QuantityCounter";
 import GeneralButton from "../../GeneralButtonComponent/GeneralButton";
 
 const AddToCart = () => {
