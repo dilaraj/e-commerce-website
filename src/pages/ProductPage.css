@@ -1,9 +1,13 @@
 * {
-    border: 1px solid ;
+    /* border: 1px solid; */
 }
 
 .productDescriptionPage {
+    background-color: #FDFDFD;
+    padding: 2em 8em 4em;
+
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
 }

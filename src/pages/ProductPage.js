@@ -3,6 +3,8 @@ import './ProductPage.css';
 import ProductListData from "../components/ProductListComponent/ProductListData";
 import { useParams } from "react-router-dom";
 import Header from "../components/HeaderComponent/Header";
+import Footer from "../components/FooterComponent/Footer";
+import ProductImageCarousel from "../components/ProductPageComponents/ProductImageCarouselComponent/ProductImageCarousel";
 
 const ProductPage = () => {
     const { id } = useParams();
@@ -11,9 +13,9 @@ const ProductPage = () => {
     return (
         <div className="productPageContainer">
             <Header />
-            <div className="productDescriptionPage">
+            <div className="productDescriptionPage container">
                 <div className="productImg">
-                    product
+                    <ProductImageCarousel images={product.images}/>
                 </div>
                 <div className="checkoutDiv">
                     checkout
@@ -25,7 +27,7 @@ const ProductPage = () => {
                     Similar product
                 </div>
             </div>
-            
+            <Footer />
         </div>
     );
 }
