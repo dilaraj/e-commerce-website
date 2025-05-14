@@ -1,0 +1,39 @@
+@font-face {
+    font-family: Inter;
+    src: url(../assets/fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: DM Sans;
+    src: url(../assets/fonts/DMSans-VariableFont_opsz\,wght.ttf);
+}
+
+.cartPage {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 2em 8em;
+}
+
+.emptyCart {
+    font-family: DM Sans;
+    font-size: 1.25rem;
+    color: #d4d4d4;
+}
+
+.cartPageBag {
+    display: flex;
+    flex-direction: column;
+}
+
+.cartPageText {
+    font-family: DM Sans;
+    font-size: 2.25rem;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+.cartLine {
+    border-bottom: 0.1em solid #E9EBEE;
+    width: 90%;
+    padding: 1em;
+}

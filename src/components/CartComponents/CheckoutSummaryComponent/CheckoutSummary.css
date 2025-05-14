@@ -1,0 +1,50 @@
+.checkoutSummaryContainer {
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 10px rgba(201, 201, 201, 0.4);
+    width: 20em;
+    height: 25em;
+    border-radius: 20px;
+    padding: 2em;
+}
+
+.checkoutSummaryText {
+    font-family: DM Sans;
+    font-weight: bold;
+    font-size: 2.25rem;
+    letter-spacing: -1px;
+    padding-bottom: 0.75em;
+}
+
+.valueContainer,
+.summaryValueContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1em;
+    font-family: DM Sans;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+}
+
+.discount {
+    color: #EC5E2A;
+}
+
+.checkoutLine {
+    border-bottom: 0.1em solid #E9EBEE;
+    width: 90%;
+    padding: 1em;
+}
+
+.summaryTotalContainer {
+    padding-top: 1.5em;
+}
+
+.summaryValueContainer {
+    padding-bottom: 2em;
+}
+
+.summaryTotal {
+    font-size: 1.5rem;
+}

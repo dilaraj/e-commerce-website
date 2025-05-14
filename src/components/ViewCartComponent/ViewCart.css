@@ -3,26 +3,34 @@
     src: url(../../assets/fonts/Inter_28pt-SemiBold.ttf);
 }
 
-.viewCart {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    column-gap: 0.5em;
-
-    width: 9em;
+.viewCart{
+    width: 10em;
     height: 2.5em;
 
     font-family: Inter;
+    color: #000000;
+
     border-radius: 8px;
     border: 1px solid #201B21;
     background-color: transparent;
     cursor: pointer;
 }
 
+.viewCartLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.5em;
+}
+
 .viewCart:hover {
     background-color: #a4c4bc;
     border-color: #a4c4bc;
     color: #FFFFFF;
+}
+
+.cartQuantity {
+    
 }
 
 @media only screen and (max-width: 600px) {

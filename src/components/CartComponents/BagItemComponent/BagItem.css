@@ -1,0 +1,85 @@
+.bagItemContainer {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding-top: 2em;
+}
+
+.bagItemImg {
+    width: 10em;
+    height: 10em;
+    border-radius: 18px;
+}
+
+.bagProductInfo {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.bagProductSpecs {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.bagBrand {
+    font-family: DM Sans;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #000000;
+    padding-bottom: 0.25em;
+}
+
+.bagName {
+    font-family: Inter;
+    font-weight: normal;
+    font-size: 1rem;
+    color: #67696E;
+}
+
+.priceContainer div {
+    font-family: DM Sans;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.bagProductActions {
+    display: flex;
+    align-items: end;
+    gap: 1em;
+}
+
+.bagQuantityContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 1.75em;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    border: 1px solid #E9EBEE;
+    border-radius: 10px;
+    width: 7em;
+    padding: 0.75em;
+}
+
+.bagQuantity {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 1.125rem;
+}
+
+.bagItemContainer button {
+    background-color: transparent;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.removeBtn {
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #67696E;
+    text-decoration: underline;
+    padding-bottom: 0.75em;
+    cursor: pointer;
+}

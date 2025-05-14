@@ -8,7 +8,7 @@ const ProductItem = ( {src, brand, name, price }) => {
             <div className="productDescription">
                 <span className="productBrand">{brand}</span>
                 <span className="productName">{name}</span>
-                <span className="productPrice">{price}</span>
+                <span className="productPrice">${price}</span>
             </div>
         </div>
     );
