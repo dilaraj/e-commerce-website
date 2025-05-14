@@ -23,11 +23,13 @@
 .counterContainer {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     gap: 1.75em;
     background-color: #FFFFFF;
     border: 1px solid #E9EBEE;
     border-radius: 10px;
-    width: fit-content;
+    width: 7em;
     padding: 0.75em;
 }
 
@@ -39,4 +41,30 @@
 
 .minusCounter, .addCounter {
     cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .quantityCounterContainer {
+        gap: 0.75em;
+    }
+
+    .counterText {
+        font-size: 0.9rem;
+    }
+
+    .counterContainer {
+        gap: 1.25em;
+        padding: 0.5em;
+        width: 5em;
+    }
+
+    .counterOutcome {
+        font-size: 0.85rem;
+        font-weight: 500;
+    }
+
+    .minusCounter, .addCounter {
+        font-size: 0.85em;
+    }
 }

@@ -16,7 +16,7 @@ const ProductPage = () => {
     return (
         <div className="productPageContainer">
             <Header />
-            <div className="productDescriptionPage container">
+            <div className="productDescriptionPage">
                 <div className="productImg">
                     <ProductImageCarousel images={product.images}/>
                 </div>

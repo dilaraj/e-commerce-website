@@ -46,3 +46,18 @@
     font-size: 1.125rem;
     white-space: pre-line;
 }
+
+@media only screen and (max-width: 600px) {
+    .productDescriptionSection {
+        padding: 2em 1.5em;
+    }
+
+    .productDescriptionSection div {
+        font-size: 1.15rem;
+    }
+
+    .productDescriptionSection div:nth-child(3),
+    .productDescriptionList li {
+        font-size: 0.75rem;
+    }
+}

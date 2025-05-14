@@ -9,9 +9,9 @@ import product2_2 from '../../assets/images/products/Product2/product2_2.jpeg';
 import product2_3 from '../../assets/images/products/Product2/product2_3.jpeg';
 
 import product3 from '../../assets/images/products/Product3/product3.png';
-import product3_1 from '../../assets/images/products/Product3/product3_1.webp';
-import product3_2 from '../../assets/images/products/Product3/product3_2.webp';
-import product3_3 from '../../assets/images/products/Product3/product3_3.webp';
+import product3_1 from '../../assets/images/products/Product3/product3_1.png';
+import product3_2 from '../../assets/images/products/Product3/product3_2.png';
+import product3_3 from '../../assets/images/products/Product3/product3_3.png';
 
 import product4 from '../../assets/images/products/Product4/product4.png';
 import product4_1 from '../../assets/images/products/Product4/product4_1.png';

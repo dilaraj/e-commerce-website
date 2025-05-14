@@ -19,3 +19,20 @@
     align-items: center;
     justify-content: center;
 }
+
+@media only screen and (max-width: 600px) {
+    .productDescriptionPage {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        padding: 0em;
+        column-gap: 0;
+    }
+
+    .checkoutDiv {
+        padding-top: 1em;
+    }
+
+}

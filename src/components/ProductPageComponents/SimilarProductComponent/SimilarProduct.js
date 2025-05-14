@@ -21,11 +21,15 @@ const SimilarProduct = () => {
 
     return (
         <div className="similarProductContainer">
-            <div>
-                <Link to={`/product/${nextProduct.id}`} key={nextProduct.id} style={{ textDecoration: 'none' }}>
+            <Link 
+                to={`/product/${nextProduct.id}`} 
+                key={nextProduct.id} 
+                style={{ textDecoration: 'none'}}
+            >
+                <div className="similarImg">
                     <img src={nextProduct.src} alt={nextProduct.name} />
-                </Link>
-            </div>
+                </div>
+            </Link>
         </div>
     );
 }

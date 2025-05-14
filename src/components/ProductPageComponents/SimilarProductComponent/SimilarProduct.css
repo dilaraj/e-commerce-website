@@ -1,15 +1,31 @@
 .similarProductContainer {
-    box-shadow: 1px 1px 10px rgba(201, 201, 201, 0.4);
-    border-radius: 20px;
-    height: 20em;
-    width: 35em;
-    overflow: hiddenv !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.similarProductContainer img {
+.similarImg {
+    box-shadow: 1px 1px 10px rgba(201, 201, 201, 0.4);
+    border-radius: 30px;
+    height: auto;
+    width: 25em;
+    overflow: hidden;
+}
+
+.similarImg img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 20px !important; 
+    border-radius: 20px; 
+}
+
+@media only screen and (max-width: 600px) {
+    .similarProductContainer {
+        padding-bottom: 3em;
+    }
+
+    .similarImg {
+        width: 15em;
+    }
 }

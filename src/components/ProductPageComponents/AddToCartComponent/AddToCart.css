@@ -62,3 +62,30 @@
     font-weight: 600;
     width: 100%;
 }
+
+@media only screen and (max-width: 600px) {
+    .addToCartContainer {
+        width: 15em;
+    }
+
+    .productInfo {
+        padding: 1.5em 1.5em 1em;
+    }
+
+    .productInfo div:nth-child(1) {
+        font-size: 1rem;
+    }
+
+    .productInfo div:nth-child(2) {
+        font-size: 0.85rem;
+    }
+
+    .productInfo div:nth-child(3) {
+        font-size: 1rem;
+    }
+
+    .orderInfo {
+        padding: 1.25em;
+        gap: 1.5em;
+    }
+}
