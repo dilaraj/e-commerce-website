@@ -8,7 +8,7 @@ The website is built to be compatible with both laptop, table and mobile screens
 ![](./Webpage%20Screenshot.png)
 
 ### Mobile Screenshot
-![](./Mobile%20Screenshot.png)
+![](./Mobile%20Screenshot.jpg)
 
 ## Summary
 A simple e-commerce webpage made using **React JS**. 
