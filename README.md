@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# SUN CO. E-Commerce Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Design Inspiration 
+The UI of the website is take from the [figma frontend challenge](https://www.figma.com/community/file/1265518602582906441/frontend-challenge)
+The website is built to be compatible with both laptop, table and mobile screens
 
-## Available Scripts
+### Webpage Screenshot
+![](./Webpage%20Screenshot.png)
 
-In the project directory, you can run:
+### Mobile Screenshot
+![](./Mobile%20Screenshot.png)
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Summary
+A simple e-commerce webpage made using **React JS**. 
+Although the website is fully frontend it features:
+* A header that has a:
+    * Clickable logo which redirects users to the home page
+    * **View Cart** button which takes using the the cart for review and checkout
+* A homepage that has a:
+    * Hero banner with a functioning button *not linked to any page yet*
+    * A product list of the latest drops featured on a product carousel with functioning buttons to help users navigate the list when in mobile mode
+* A product page that features:
+    * A product carousel displaying the products in various angles
+    * An add-to-cart component that displays the brand, name and price of the product along with a quantity counter and an **Add to Cart** button that adds the item to the users cart
+    * Product Description that draws the data from the ProductListData file
+    * An clickable image link that takes users to the next product in the list
+* A Summary Cart Page that features:
+    * The subtotal, shipping, tax and discount of each product along with the total price of the cart
+    * A list of the products in the cart that displays each item in the cart with its details, along with actions to increase/decrease quantity and a remove button
+* A footer with the logo, trademark and social buttons *not yet linked to any social media* 
