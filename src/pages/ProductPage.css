@@ -1,3 +1,7 @@
+* {
+    border: 1px solid;
+}
+
 .productDescriptionPage {
     background-color: #FDFDFD;
     padding: 2em 8em 2em;
@@ -32,7 +36,7 @@
     }
 
     .checkoutDiv {
-        padding-top: 1em;
+        padding-top: 0em;
     }
 
 }
