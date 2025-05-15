@@ -12,6 +12,7 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
     padding: 2em 8em;
+    min-height: 80vh;
 }
 
 .emptyCart {

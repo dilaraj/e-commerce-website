@@ -5,6 +5,7 @@ import { useCart } from "./CartFunctionality/CartContext";
 import Header from '../components/HeaderComponent/Header';
 import BagItem from "../components/CartComponents/BagItemComponent/BagItem";
 import CheckoutSummary from "../components/CartComponents/CheckoutSummaryComponent/CheckoutSummary";
+import Footer from '../components/FooterComponent/Footer';
 
 const CartPage = () => {
 
@@ -39,6 +40,7 @@ const CartPage = () => {
                     <CheckoutSummary />
                 </div>
             </div>
+            <Footer />
         </div>
     );
 }
