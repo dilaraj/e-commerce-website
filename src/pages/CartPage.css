@@ -37,3 +37,31 @@
     width: 90%;
     padding: 1em;
 }
+
+@media only screen and (max-width: 600px) {
+    .cartPage {
+        padding: 1em;
+        background-color: #FDFDFD;
+        display: grid;
+        grid-template-rows: 1fr auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cartPageText {
+        font-size: 1.75rem;
+    }
+
+    .cartPageBag {
+        grid-row: 2 / 3;
+        padding: 0.6em;
+    }
+
+    .cartPageSummary {
+        grid-row: 1 / 2;
+    }
+
+    .cartLine {
+        padding: 0.65em;
+    }
+}

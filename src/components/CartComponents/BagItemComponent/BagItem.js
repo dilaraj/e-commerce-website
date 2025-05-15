@@ -14,10 +14,8 @@ const BagItem = ({ id, src, brand, name, price}) => {
             <img src={src} alt={name} className="bagItemImg"/>
             <div className="bagProductInfo">
                 <div className="bagProductSpecs">
-                    <div className="bagBrandInfo">
-                        <div className="bagBrand">{brand}</div>
-                        <div className="bagName">{name}</div>
-                    </div>
+                    <div className="bagBrand">{brand}</div>
+                    <div className="bagName">{name}</div>
                     <div className="priceContainer">
                         <div>${(price * quantity).toFixed(2)}</div>
                     </div>

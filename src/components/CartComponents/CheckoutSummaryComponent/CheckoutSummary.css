@@ -48,3 +48,34 @@
 .summaryTotal {
     font-size: 1.5rem;
 }
+
+@media only screen and (max-width: 600px) {
+    .checkoutSummaryContainer {
+        padding: 1.5em 1em;
+        width: 15em;
+        height: 20em;
+    }
+
+    .checkoutSummaryText {
+        font-size: 1.75rem;
+    }
+
+    .valueContainer,
+    .summaryValueContainer {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .checkoutLine {
+        width: 100%;
+        padding: 0;
+    }
+
+    .summaryTotalContainer {
+        padding-top: 1em;
+    }
+
+    .summaryTotal {
+        font-size: 1.125rem;
+    }
+}
