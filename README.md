@@ -1,7 +1,9 @@
 # SUN CO. E-Commerce Website
+## Live Preview
+[Sun Co. Live Preview](https://dilaraj.github.io/e-commerce-website/)
 
 ## Design Inspiration 
-The UI of the website is take from the [figma frontend challenge](https://www.figma.com/community/file/1265518602582906441/frontend-challenge)
+The UI of the website is take from the [figma frontend challenge](https://www.figma.com/community/file/1265518602582906441/frontend-challenge).
 The website is built to be compatible with both laptop, table and mobile screens
 
 ### Webpage Screenshot
@@ -28,3 +30,7 @@ Although the website is fully frontend it features:
     * The subtotal, shipping, tax and discount of each product along with the total price of the cart
     * A list of the products in the cart that displays each item in the cart with its details, along with actions to increase/decrease quantity and a remove button
 * A footer with the logo, trademark and social buttons *not yet linked to any social media* 
+
+### Author 
+Website created by **Dilara Ajaj**
+* [GitHub Solution URL]: (https://github.com/dilaraj/QR-Code-Component)
