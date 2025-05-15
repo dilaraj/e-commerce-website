@@ -33,4 +33,4 @@ Although the website is fully frontend it features:
 
 ### Author 
 Website created by **Dilara Ajaj**
-* [GitHub Solution URL]: (https://github.com/dilaraj/QR-Code-Component)
+* GitHub - [@dilaraj](https://github.com/dilaraj)
