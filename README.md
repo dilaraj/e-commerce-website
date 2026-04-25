@@ -3,7 +3,7 @@
 [Sun Co. Live Preview](https://dilaraj.github.io/e-commerce-website/)
 
 ## Design Inspiration 
-The UI of the website is take from the [figma frontend challenge](https://www.figma.com/community/file/1265518602582906441/frontend-challenge).
+The UI of the website is taken from the [figma frontend challenge](https://www.figma.com/community/file/1265518602582906441/frontend-challenge).
 The website is built to be compatible with both laptop, table and mobile screens
 
 ### Webpage Screenshot
